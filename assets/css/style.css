@@ -131,6 +131,10 @@ nav{
     font-size: 28px;
     cursor: pointer;
 }
+.nav-button a{
+    text-decoration: none;
+    color: black;
+}
 .active-link{
     position: relative;
     color: var(--first-color);
@@ -146,6 +150,9 @@ nav{
     height: 5px;
     background: var(--first-color);
     border-radius: 50%;
+}
+.featured-text-btn a{ text-decoration: none;
+    color: white;
 }
 
 
@@ -320,6 +327,10 @@ h3{
     background: var(--color-white);
     box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
     border-radius: 20px;
+}
+
+.about-btn a{ text-decoration: none;
+    color: white;
 }
 .about-info p{
     text-align: center;
